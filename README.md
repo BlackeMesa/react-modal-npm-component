@@ -32,3 +32,8 @@ To customize the appearance of the modal, you can override the default CSS style
 .modal-header: The header section of the modal which includes the title and close button.
 .modal-body: The body of the modal where children content is rendered.
 .close-button: The close button.
+
+
+ ## Link
+
+ https://www.npmjs.com/package/react-custom-modal-blackemesa
