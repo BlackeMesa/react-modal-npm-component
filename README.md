@@ -13,7 +13,7 @@
 
 To install the package, use npm or yarn:
 
-```bash
+
 npm install react-custom-modal
 
 
