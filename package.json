@@ -1,0 +1,33 @@
+{
+  "name": "react-custom-modal-blackemesa",
+  "version": "1.0.3",
+  "description": "A customizable modal component for React.",
+  "main": "dist/Modal.js", 
+  "files": [
+    "dist", 
+    "src/Modal.css", 
+    "README.md"
+  ],
+ "scripts": {
+  "build": "babel src --out-dir dist && cpx src/Modal.css dist",
+  "prepare": "npm run build"
+},
+  "keywords": [
+    "react",
+    "modal",
+    "component",
+    "customizable"
+  ],
+  "author": "VotreNom",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
